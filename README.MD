@@ -4,12 +4,12 @@
 - run ``` amplify init ```
 - Follow the instruction
 - use ``` amplify push ``` to deploy your code
-### Email service provided ###
-- I have used [https://www.sendinblue.com/] (https://www.sendinblue.com/)
+### Email service Used ###
+- I have used [https://www.sendinblue.com/](https://www.sendinblue.com/)
 - Create your free account
 - And add your api key
 - Goto Send in blue dashboard
-- Create new template
+- Create your new template
 - Copy below snippet and paste it inside that template
 ```html 
  
@@ -25,7 +25,7 @@ Address: {{ hos.address }}
 {% endfor %}
 
 ```
-### Find State ID and district ID
+### Find State ID and District ID
 
 - You will be needing state ID and District ID
 - First find state ID at this link [https://cdn-api.co-vin.in/api/v2/admin/location/states]( https://cdn-api.co-vin.in/api/v2/admin/location/states ) - (Pro tip install json formatter plugin on chrome)
